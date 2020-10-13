@@ -1,0 +1,42 @@
+header {
+    background-color: #c3c3c3;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+ a {
+    color: black;
+    background-color: #d3d3d3;
+    font-size: 18px;
+}
+
+img {
+    display: none;
+}
+
+section {
+    background-color: #a3a3a3;
+    margin:0,10px;
+}
+
+h2 {
+    color: rgba(0, 0, 150);
+    font-size: 40px;
+    text-transform: lowercase;
+    font-variant: small-caps;
+    margin-bottom:5px;
+    
+}
+
+p {
+    text-align: left;
+}
+

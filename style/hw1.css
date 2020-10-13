@@ -1,0 +1,157 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0 2%;
+    padding: 0 0.5%;
+    height: 100%;
+}
+
+header {
+    box-sizing: border-box;
+    background: #236985 url("../images/flywheel.jpg");
+    background-repeat: no-repeat;
+    /*background-clip: border-box;*/
+    background-size: 100%;
+    font-size: 2em;
+    padding-bottom: 3%;
+    text-align: center;
+    height: 25%;
+
+
+
+}
+
+header h1 {
+    color: #ffffff;
+    text-transform: lowercase;
+    font-variant: small-caps;
+
+}
+
+
+nav a {
+
+    background-color: rgba(255, 255, 255, .2);
+    text-transform: capitalize;
+    color: #000000;
+    display: inline-block;
+    width: 15%;
+    /* height:50px;*/
+    height: 20%;
+    margin-right: 2%;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top: 0.5%;
+}
+
+.active {
+    background-color: rgb(255, 255, 255);
+    color: #0040ff;
+}
+
+main {
+    box-sizing: border-box;
+
+    /*height: 75%;*/
+}
+
+.right,
+.left {
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.left {
+    background-color: #808000;
+    box-sizing: border-box;
+    ;
+    width: 20%;
+    padding: .5%;
+    /* height: 100%;*/
+
+}
+
+.right {
+    font-size: 1.25em;
+    text-align: left;
+    width: 70%;
+    padding: 0.5%;
+    /* height: 100%;*/
+
+}
+
+img {
+    box-sizing: border-box;
+    border: 1px black solid;
+    width: 80%;
+    display: block;
+    margin: 15% auto;
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-spacing: .5%;
+    font-family: sans-serif;
+    table-layout: fixed;
+    font-weight:bold;
+}
+
+tr {
+    opacity: 0.6;
+}
+
+/*th {
+    color: white;
+    background-color: #608000;
+    background-image: linear-gradient(#608000, #bfff80);
+    border: 1px solid #608000;
+    border-radius: 5px 5px 0 0;
+    padding: 1.5%;
+    border-bottom-width: 2px;
+    box-shadow:0px 0px 2px #608000;
+
+
+
+}*/
+th {
+		background: #808000; /* Olive */
+		color: #FFFFFF; /* White */
+	    border: 2px solid #FFFFFF; /* White */
+		background-image: url('http://www.photos-public-domain.com/wp-content/uploads/2011/03/olive-green-parchment-paper-texture.jpg');
+   		background-repeat: no-repeat;
+	}
+
+tr th:last-child {
+    width: 28%;
+    text-align: center;
+}
+
+tr th:nth-child(2) {
+    width: 28%;
+    text-align: center;
+}
+
+td {
+    color: #999999;
+    background-color: #afee88;
+    border: 1px solid #afee88;
+    padding: 1%;
+    text-align: center;
+    font-size: 0.75em;
+}
+
+tr td:first-child {
+    text-align: left;
+}
+
+tr:hover {
+    opacity: 1;
+}

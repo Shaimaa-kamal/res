@@ -1,0 +1,44 @@
+div {
+    : grey;
+    width: 400px;
+    height: 900px;
+    padding: 10px;
+      background-color:grey;
+
+}
+p{
+    width:300px;
+    height:100px;
+  background-color:antiquewhite;
+    margin:0px;
+}
+.red {
+    width: 200px;
+    height: 600px;
+    background-color: red;
+    position: absolute;
+}
+
+.yellow,
+.blue,
+.green {
+    width: 100px;
+    height: 100px;
+    ;
+}
+
+.yellow {
+    background-color: yellow;
+
+
+}
+
+.blue {
+    background-color: blue;
+
+}
+
+.green {
+    background-color: green;
+
+}
